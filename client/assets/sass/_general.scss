@@ -1,0 +1,13 @@
+body {
+  background-color: $gray-cloud;
+}
+
+// redefine mdb buttons
+.btn {
+  box-shadow: none;
+}
+
+.btn-danger-outline {
+  border: 2px solid $danger-color;
+  color: $danger-color;
+}
