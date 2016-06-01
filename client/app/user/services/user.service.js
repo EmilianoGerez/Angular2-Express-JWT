@@ -20,7 +20,7 @@ var UserService = (function () {
     function UserService(_http, _authHttp) {
         this._http = _http;
         this._authHttp = _authHttp;
-        this.baseUrl = 'http://localhost:3000/api/users/';
+        this.baseUrl = 'https://localhost:3000/api/users/';
         this._headers = new http_1.Headers();
         this.currentUser = new user_model_1.User();
         this._jwtHelper = new angular2_jwt_1.JwtHelper();
