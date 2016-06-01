@@ -11,7 +11,7 @@ import {User} from "../models/user.model";
 @Injectable()
 
 export class UserService {
-  private baseUrl = 'http://localhost:3000/api/users/';
+  private baseUrl = 'https://localhost:3000/api/users/';
   private _headers:Headers = new Headers();
   private currentUser:User = new User();
   private _jwtHelper:JwtHelper = new JwtHelper();
