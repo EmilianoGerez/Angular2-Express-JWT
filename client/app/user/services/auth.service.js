@@ -18,7 +18,7 @@ var AuthService = (function () {
         this._http = _http;
         this._authHttp = _authHttp;
         this._userService = _userService;
-        this.baseUrl = 'http://localhost:3000/api/auth/';
+        this.baseUrl = 'https://angularjwtdemo.herokuapp.com/api/auth/';
         this._headers = new http_1.Headers();
         this._jwtHelper = new angular2_jwt_1.JwtHelper();
         this._headers.append('Content-Type', 'application/json');
