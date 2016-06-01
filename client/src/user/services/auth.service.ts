@@ -8,7 +8,7 @@ import {UserService} from "./user.service";
 @Injectable()
 
 export class AuthService {
-  private baseUrl = 'https://localhost:3000/api/auth/';
+  private baseUrl = 'http://localhost:3000/api/auth/';
   private _headers:Headers = new Headers();
   _jwtHelper:JwtHelper = new JwtHelper();
 

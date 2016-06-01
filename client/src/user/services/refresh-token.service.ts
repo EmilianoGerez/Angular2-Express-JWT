@@ -9,7 +9,7 @@ import {JwtHelper, AuthHttp} from "angular2-jwt";
 @Injectable()
 
 export class RefreshTokenService {
-  private url = 'https://localhost:3000/api/auth/refresh';
+  private url = 'http://localhost:3000/api/auth/refresh';
   private _headers:Headers = new Headers();
   private _jwtHelper:JwtHelper = new JwtHelper();
 
