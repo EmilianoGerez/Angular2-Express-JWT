@@ -21,7 +21,7 @@
     'angular2-in-memory-web-api': { main: 'index.js', defaultExtension: 'js' }
   };
 
-  var packageNames = [
+  var ngPackageNames  = [
     'common',
     'compiler',
     'core',
